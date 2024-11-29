@@ -1,0 +1,228 @@
+{
+    "locales": {
+        "en": {
+            "title": "My <span class='text-primary'>Portfolio</span>",
+            "description": "Explore a selection of my recent projects and creative works."
+        },
+        "es": {
+            "title": "Mi <span class='text-primary'>Portafolio</span>",
+            "description": "Explora una selección de mis proyectos recientes y trabajos creativos."
+        },
+        "fr": {
+            "title": "Mon <span class='text-primary'>Portfolio</span>",
+            "description": "Découvrez une sélection de mes projets récents et œuvres créatives."
+        },
+        "zh": {
+            "title": "我的<span class='text-primary'>作品集</span>",
+            "description": "浏览我最近的一些项目和创意作品。"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "productivity",
+            "locales": {
+                "en": {"title": "Arduino"},
+                "es": {"title": "Productividad"},
+                "fr": {"title": "Productivité"},
+                "zh": {"title": "生产力"}
+            }
+        },
+        {
+            "id": "utilities",
+            "locales": {
+                "en": {"title": "Front-End Developement"},
+                "es": {"title": "Utilidades"},
+                "fr": {"title": "Utilitaires"},
+                "zh": {"title": "工具"}
+            }
+        },
+        {
+            "id": "social",
+            "locales": {
+                "en": {"title": "Embedded Systems"},
+                "es": {"title": "Social"},
+                "fr": {"title": "Social"},
+                "zh": {"title": "社交"}
+            }
+        }
+    ],
+
+    "items": {
+        
+        "productivity": [
+            {
+                "id": "mailm8",
+                "title": "Flame Detection Alarm",
+                "logoUrl": "images/portfolio/project-logo-7.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-apple", "href": "https://apple.com", "id": "App Store"},
+                    {"faIcon": "fa-brands fa-google-play", "href": "https://googleplay.com", "id": "Google Play"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Flame Detection Alaram</b> is a flame detector alarm that uses a colored distace from flame indeicator to warn a user how much </b>.",
+                        "tags": ["app", "email", "communication", "productivity"]
+                    },
+                    "es": {
+                        "description": "<b>MailM8</b> es tu compañero de correo electrónico inteligente, revolucionando la forma en que gestionas e interactúas con tu bandeja de entrada. Con funciones avanzadas impulsadas por inteligencia artificial, <b>MailM8</b> te ayuda a organizar tu correo electrónico, priorizar mensajes importantes y componer respuestas inteligentes con facilidad. Di adiós a la abrumadora bandeja de entrada y dale la bienvenida a una experiencia de comunicación más eficiente y organizada con <b>MailM8</b>.",
+                        "tags": ["aplicación", "correo electrónico", "comunicación", "productividad"]
+                    },
+                    "fr": {
+                        "description": "<b>MailM8</b> est votre compagnon de messagerie intelligent, révolutionnant la manière dont vous gérez et interagissez avec votre boîte de réception. Avec des fonctionnalités avancées alimentées par l'IA, <b>MailM8</b> vous aide à désencombrer votre boîte de réception, à prioriser les messages importants et à composer des réponses intelligentes en un clin d'œil. Dites adieu à la surcharge de courrier électronique et bonjour à une expérience de communication plus efficace et organisée avec <b>MailM8</b>.",
+                        "tags": ["application", "courrier électronique", "communication", "productivité"]
+                    },
+                    "zh": {
+                        "description": "<b>MailM8</b> 是您的智能电子邮件伙伴，彻底改变了您管理和与收件箱互动的方式。通过先进的人工智能功能，<b>MailM8</b> 帮助您整理电子邮件，优先处理重要消息，并轻松撰写智能回复。告别电子邮件的压倒性情况，拥抱更高效和有组织的沟通体验，与 <b>MailM8</b> 一同打个招呼。",
+                        "tags": ["应用", "电子邮件", "通讯", "生产力"]
+                    }
+                }
+            }
+        ],
+
+        "utilities": [
+            {
+                "id": "placeholder",
+                "title": "Placeholder",
+                "logoUrl": "images/portfolio/project-logo-1.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-apple", "href": "https://apple.com", "id": "App Store"},
+                    {"faIcon": "fa-brands fa-google-play", "href": "https://googleplay.com", "id": "Google Play"},
+                    {"faIcon": "fa-brands fa-windows", "href": "https://windows.com", "id": "Windows Store"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>SmartCash</b> is your smart companion for personal finance, empowering you to take control of your money effortlessly. With its user-friendly interface, SmartCash provides real-time tracking of your expenses and income, enabling you to identify spending patterns and make informed financial decisions. Stay on top of your budget as SmartCash offers personalized recommendations to save money and achieve your financial goals without compromising your lifestyle.",
+                        "tags": ["app", "finance", "money", "budget"]
+                    },
+                    "es": {
+                        "description": "<b>SmartCash</b> es tu compañero inteligente para las finanzas personales, permitiéndote tomar el control de tu dinero sin esfuerzo. Con su interfaz fácil de usar, SmartCash proporciona un seguimiento en tiempo real de tus gastos e ingresos, lo que te permite identificar patrones de gasto y tomar decisiones financieras informadas. Mantente al tanto de tu presupuesto, ya que SmartCash ofrece recomendaciones personalizadas para ahorrar dinero y alcanzar tus objetivos financieros sin comprometer tu estilo de vida.",
+                        "tags": ["aplicación", "finanzas", "dinero"]
+                    },
+                    "fr": {
+                        "description": "<b>SmartCash</b> est votre compagnon intelligent pour les finances personnelles, vous permettant de prendre le contrôle de votre argent sans effort. Avec son interface conviviale, SmartCash offre un suivi en temps réel de vos dépenses et de vos revenus, vous permettant d'identifier les habitudes de dépenses et de prendre des décisions financières éclairées. Restez maître de votre budget, car SmartCash propose des recommandations personnalisées pour économiser de l'argent et atteindre vos objectifs financiers sans compromettre votre style de vie.",
+                        "tags": ["application", "finance", "argent"]
+                    },
+                    "zh": {
+                        "description": "<b>SmartCash</b> 是您在个人财务方面的智能伴侣，使您轻松掌控您的资金。凭借其用户友好的界面，SmartCash 实时跟踪您的支出和收入，使您能够识别支出模式并做出明智的财务决策。通过提供个性化建议来节省金钱并实现您的财务目标，SmartCash 使您的预算始终保持在掌握之中。",
+                        "tags": ["应用", "财务", "金钱", "预算"]
+                    }
+                }
+            },
+
+            {
+                "id": "snappy",
+                "title": "Placeholder",
+                "logoUrl": "images/portfolio/project-logo-2.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-apple", "href": "https://apple.com", "id": "App Store"},
+                    {"faIcon": "fa-brands fa-google-play", "href": "https://googleplay.com", "id": "Google Play"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Snappy</b> is your ultimate photography app, empowering you to capture and edit stunning images effortlessly. With its intuitive interface, Snappy provides a wide range of powerful tools and filters to enhance your photos and bring out your creativity. Whether you're a professional photographer or just a hobbyist, Snappy offers features like manual controls, advanced editing options, and AI-powered enhancements to take your photography to the next level.",
+                        "tags": ["app", "photography", "camera"]
+                    },
+                    "es": {
+                        "description": "<b>Snappy</b> es tu aplicación definitiva de fotografía, que te permite capturar y editar imágenes impresionantes sin esfuerzo. Con su interfaz intuitiva, Snappy ofrece una amplia gama de herramientas y filtros poderosos para mejorar tus fotos y potenciar tu creatividad. Ya seas un fotógrafo profesional o simplemente un aficionado, Snappy ofrece funciones como controles manuales, opciones de edición avanzadas y mejoras impulsadas por inteligencia artificial para llevar tu fotografía al siguiente nivel.",
+                        "tags": ["aplicación", "fotografía", "cámara"]
+                    },
+                    "fr": {
+                        "description": "<b>Snappy</b> est votre application ultime de photographie, vous permettant de capturer et d'éditer des images époustouflantes sans effort. Avec son interface intuitive, Snappy propose une large gamme d'outils puissants et de filtres pour améliorer vos photos et stimuler votre créativité. Que vous soyez un photographe professionnel ou simplement un amateur, Snappy offre des fonctionnalités telles que les commandes manuelles, les options d'édition avancées et les améliorations alimentées par l'IA pour pousser votre photographie à un niveau supérieur.",
+                        "tags": ["application", "photographie"]
+                    },
+                    "zh": {
+                        "description": "<b>Snappy</b> 是您的终极摄影应用，可轻松捕捉和编辑令人惊叹的图像。借助其直观的界面，Snappy 提供了各种强大的工具和滤镜，可增强您的照片并释放您的创造力。无论您是专业摄影师还是业余爱好者，Snappy 都提供诸如手动控制、高级编辑选项和基于人工智能的增强功能，将您的摄影推向新的高度。",
+                        "tags": ["应用", "摄影", "相机"]
+                    }
+                }
+            },
+
+            {
+                "id": "sweetscoops",
+                "title": "Placeholder",
+                "logoUrl": "images/portfolio/project-logo-5.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-apple", "href": "https://apple.com", "id": "App Store"},
+                    {"faIcon": "fa-brands fa-google-play", "href": "https://googleplay.com", "id": "Google Play"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "Indulge in the world of delectable desserts with <b>Sweet Scoops</b>! This app is a dessert lover's paradise, offering a wide range of mouthwatering recipes, step-by-step instructions, and videos for creating your favorite sweets. From creamy ice creams to irresistible pastries, <b>Sweet Scoops</b> has you covered for all your dessert cravings. Unleash your inner pastry chef and treat yourself to a delightful dessert experience.",
+                        "tags": ["app", "food", "desserts", "recipes"]
+                    },
+                    "es": {
+                        "description": "¡Déjate llevar al mundo de los postres deliciosos con <b>Sweet Scoops</b>! Esta aplicación es el paraíso de los amantes de los postres, ofreciendo una amplia gama de recetas deliciosas, instrucciones paso a paso y videos para crear tus dulces favoritos. Desde cremosos helados hasta irresistibles pasteles, <b>Sweet Scoops</b> tiene todo lo que necesitas para satisfacer tus antojos de postres. Libera al chef de repostería que llevas dentro y date un caprichoso y delicioso experiencia de postre.",
+                        "tags": ["aplicación", "comida", "postres", "recetas"]
+                    },
+                    "fr": {
+                        "description": "Indulgez-vous dans le monde des desserts délectables avec <b>Sweet Scoops</b> ! Cette application est le paradis des amateurs de desserts, offrant une large gamme de recettes alléchantes, d'instructions étape par étape et de vidéos pour créer vos douceurs préférées. Des glaces crémeuses aux pâtisseries irrésistibles, <b>Sweet Scoops</b> vous couvre pour toutes vos envies de dessert. Libérez le chef pâtissier qui sommeille en vous et offrez-vous une délicieuse expérience de dessert.",
+                        "tags": ["application", "nourriture", "desserts", "recettes"]
+                    },
+                    "zh": {
+                        "description": "在<b>Sweet Scoops</b> 的美味甜品世界中尽情享受吧！这款应用是甜品爱好者的天堂，提供各种美味食谱、逐步说明和视频，帮助您制作您最喜爱的甜点。从奶油冰淇淋到诱人的糕点，<b>Sweet Scoops</b> 应有尽有，满足您对甜点的所有渴望。释放您内心的糕点大厨，让自己享受美味的甜点体验。",
+                        "tags": ["应用", "食物", "甜点", "食谱"]
+                    }
+                }
+            }
+        ],
+
+        "social": [
+            {
+                "id": "findagoalie",
+                "title": "Placeholder",
+                "logoUrl": "images/portfolio/project-logo-4.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-apple", "href": "https://apple.com", "id": "App Store"},
+                    {"faIcon": "fa-brands fa-google-play", "href": "https://googleplay.com", "id": "Google Play"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Find a Goalie</b> is your go-to app for finding and connecting with goaltenders in your area. Whether you're organizing a pickup hockey game or need a goalie for your team's practice session, this app makes it easy to search for available goaltenders, view their profiles, and send direct messages for collaboration. Get the pads on and let <b>Find a Goalie</b> help you keep the net covered!",
+                        "tags": ["app", "sports", "hockey", "goalie"]
+                    },
+                    "es": {
+                        "description": "<b>Find a Goalie</b> es tu aplicación de referencia para encontrar y conectarte con porteros en tu área. Ya sea que estés organizando un partido de hockey improvisado o necesites un portero para la sesión de práctica de tu equipo, esta aplicación facilita la búsqueda de porteros disponibles, ver sus perfiles y enviar mensajes directos para colaborar. ¡Ponte los pads y deja que <b>Find a Goalie</b> te ayude a mantener la portería cubierta!",
+                        "tags": ["aplicación", "deporte", "hockey", "portero"]
+                    },
+                    "fr": {
+                        "description": "<b>Find a Goalie</b> est votre application incontournable pour trouver et entrer en contact avec des gardiens de but de votre région. Que vous organisiez un match de hockey improvisé ou ayez besoin d'un gardien pour la séance d'entraînement de votre équipe, cette application facilite la recherche de gardiens de but disponibles, la consultation de leurs profils et l'envoi de messages directs pour la collaboration. Enfilez les pads et laissez <b>Find a Goalie</b> vous aider à garder le filet protégé !",
+                        "tags": ["application", "sport", "hockey", "gardien de but"]
+                    },
+                    "zh": {
+                        "description": "<b>Find a Goalie</b> 是您在本地区寻找并与守门员建立联系的首选应用。无论您是组织一场随意曲棍球比赛还是需要一名守门员参加您团队的训练课程，该应用都能轻松搜索可用的守门员、查看他们的个人资料并发送直接消息以便合作。穿上防护设备，让 <b>Find a Goalie</b> 帮助您守住球网！",
+                        "tags": ["应用", "运动", "曲棍球", "守门员"]
+                    }
+                }
+            },
+
+            {
+                "id": "rockverse",
+                "title": "Placeholder",
+                "logoUrl": "images/portfolio/project-logo-9.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-apple", "href": "https://apple.com", "id": "App Store"},
+                    {"faIcon": "fa-brands fa-google-play", "href": "https://googleplay.com", "id": "Google Play"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "Step into the electrifying world of rock music with <b>RockVerse</b>! This app is a haven for rock enthusiasts, offering a vast collection of classic and modern rock tracks, curated playlists, and behind-the-scenes content. Whether you're a die-hard fan or just discovering the genre, <b>RockVerse</b> brings you closer to the heart and soul of rock and roll. Crank up the volume and let the rock 'n' roll spirit run wild!",
+                        "tags": ["app", "music", "rock", "entertainment"]
+                    },
+                    "es": {
+                        "description": "¡Adéntrate en el electrizante mundo de la música rock con <b>RockVerse</b>! Esta aplicación es un refugio para los entusiastas del rock, ofreciendo una amplia colección de canciones de rock clásicas y modernas, listas de reproducción seleccionadas y contenido detrás de escena. Ya seas un fanático acérrimo o estés descubriendo el género, <b>RockVerse</b> te acerca al corazón y alma del rock and roll. ¡Sube el volumen y deja que el espíritu del rock 'n' roll se desate!",
+                        "tags": ["aplicación", "música", "rock", "entretenimiento"]
+                    },
+                    "fr": {
+                        "description": "Plongez dans le monde électrisant de la musique rock avec <b>RockVerse</b> ! Cette application est un paradis pour les amateurs de rock, offrant une vaste collection de pistes rock classiques et modernes, des listes de lecture sélectionnées et du contenu en coulisses. Que vous soyez un fan inconditionnel ou que vous découvriez simplement le genre, <b>RockVerse</b> vous rapproche du cœur et de l'âme du rock 'n' roll. Montez le volume et laissez l'esprit du rock 'n' roll s'exprimer !",
+                        "tags": ["application", "musique", "rock", "divertissement"]
+                    },
+                    "zh": {
+                        "description": "踏入摇滚音乐的电动世界，感受 <b>RockVerse</b>！这款应用是摇滚音乐爱好者的天堂，提供大量经典和现代摇滚音轨，策划的播放列表以及幕后内容。无论您是铁杆粉丝还是刚刚发现这个音乐流派，<b>RockVerse</b> 都会让您更贴近摇滚乐的核心与灵魂。放大音量，释放摇滚精神！",
+                        "tags": ["应用", "音乐", "摇滚", "娱乐"]
+                    }
+                }
+            }
+        ]
+    }
+}

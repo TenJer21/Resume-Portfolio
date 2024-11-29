@@ -1,0 +1,84 @@
+{
+    "name": "Timothy James T. Mangahas",
+    "profilePictureUrl": "images/pictures/profile.jpg",
+
+    "locales": {
+        "en": {
+            "credits": "Designed by <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Computer Engineer"
+        },
+
+        "es": {
+            "credits": "Hecho por <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Designer de UX"
+        },
+
+        "fr": {
+            "credits": "Conçu par <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Designer UX"
+        },
+
+        "zh": {
+            "credits": "设计：<strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "用户体验设计师"
+        }
+    },
+
+    "contact": {
+        "address": {
+            "id": "address",
+            "value": "Blk 1 Lot 19 P. Bukaneg St., Sta. Lucia, Novalices, QC",
+            "valueShort": "Novaliches, QC",
+            "faIcon": "fa-solid fa-city",
+            "href": null
+        },
+
+        "email": {
+            "id": "email",
+            "value": "tjmangahas21@yahoo.com",
+            "valueShort": "tjmangahas21@yahoo.com",
+            "faIcon": "fa-solid fa-envelope",
+            "href": "mailto:tjmangahas21@yahoo.com"
+        },
+
+        "facebook": {
+            "id": "facebook",
+            "value": "Timothy James Mangahas",
+            "valueShort": "TJ Mangahas",
+            "faIcon": "fa-brands fa-facebook",
+            "href": "https://www.facebook.com/tj.22104"
+        },
+
+        "github": {
+            "id": "github",
+            "value": "@TenJer21",
+            "valueShort": "@TenJer21",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/TenJer21"
+        },
+
+        "instagram": {
+            "id": "instagram",
+            "value": "@tjmnghs",
+            "valueShort": "@tjmnghs",
+            "faIcon": "fa-brands fa-instagram",
+            "href": "https://www.instagram.com/tjmnghs"
+        },
+
+        "linkedin": {
+            "id": "linkedin",
+            "value": "@timothy.james.mnangahas",
+            "valueShort": "@timothy.james.mangahas",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://www.linkedin.com/in/tjmangahas"
+        },
+
+        "phone": {
+            "id": "phone",
+            "value": "+63 9274872889",
+            "valueShort": "09274872889",
+            "faIcon": "fa-solid fa-phone",
+            "href": "tel:09274872889"
+        }
+    }
+}
