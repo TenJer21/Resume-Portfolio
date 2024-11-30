@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import Cookies from 'js-cookie';
+
 export default {
     data() {
         return {
@@ -21,8 +23,13 @@ export default {
         login() {
             // Replace this with actual authentication logic
             if (this.username === 'user' && this.password === 'pass') {
-                localStorage.setItem('authToken', 'exampleToken') // Example
-                this.$router.push('/') // Redirect to home
+                const token = 'exampleToken'; // Replace with actual token from server
+                const expiresIn = 0.1; // Set expiration time in days
+
+                // Store token in a cookie with expiration
+                Cookies.set('authToken', token, { expires: expiresIn });
+
+                this.$router.push('/'); // Redirect to home
             } else {
                 alert('Invalid credentials')
             }

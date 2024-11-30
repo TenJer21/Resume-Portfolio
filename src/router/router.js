@@ -6,6 +6,7 @@ import {useData} from "../composables/data.js"
 import RouterView from "../vue/core/RouterView.vue"
 import Login from "../vue/core/Login.vue"
 import {createRouter, createWebHistory} from "vue-router"
+import Cookies from 'js-cookie'
 
 export function createAppRouter() {
     const data = useData()
@@ -68,5 +69,5 @@ export function createAppRouter() {
 /** Helper Function to Check Authentication **/
 function checkAuthentication() {
     // Replace this with your actual authentication logic
-    return !!localStorage.getItem('authToken') // Example: token stored in localStorage
+    return !!Cookies.get('authToken') // Example: token stored in localStorage
 }
