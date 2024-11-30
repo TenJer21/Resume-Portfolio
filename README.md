@@ -1,31 +1,3 @@
-# [Vue Resume Template](https://ryanbalieiro.github.io/vue-resume-template/) by Ryan Balieiro
-
-This theme has a simple and clean layout designed for creating user-friendly resumes or CV landing pages. It's built using Vue 3.0 (Composition API) and Bootstrap 5, presenting a cohesive one-page layout that blends functionality and aesthetics.
-
-Key features:
-- A handy fixed side navigation bar that lets you easily scroll through the different sections of your resume.
-- Six unique section layouts to showcase your work experience, education, skills, portfolio, and more.
-- An alternative navigation mode designed just for mobile screens.
-- Multi-language translation support included.
-- Using Vite for faster build times and better integration.
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-agency/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
-
-## Preview
-
-Check out a live version of the template **[here](https://ryanbalieiro.github.io/vue-resume-template/).**
-
-### 1. Desktop Screenshots
-
-![alt desktop](screenshots/desktop-previews.png)
-
-### 2. Mobile Screenshots
-
-![alt mobile](screenshots/mobile-previews.png)
-
 ## Getting Started
 
 1. Clone the repo:
